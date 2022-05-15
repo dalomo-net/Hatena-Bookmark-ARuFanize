@@ -56,7 +56,7 @@ async function imagedetect() {
       for (var j = 0; j < bb.length; j++) {
         const face = bb[j].boundingBox;
         ctx.strokeStyle = "black";
-        ctx.fillRect(Math.floor(face.x * 0.47),
+        ctx.fillRect(Math.floor(face.x * 0.37),
           Math.floor(face.y * 0.5),
           Math.floor(face.width * 0.6),
           Math.floor(face.height * 0.17));
